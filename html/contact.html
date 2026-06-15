@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  <style>
+    body{
+  background-color: #11131a;
+  color:#00DDFF;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: monospace; */
+  font-weight: bold;
+  padding-bottom:50px;
+}
+
+/* profile picture */
+.profile-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.pfp{
+    width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit:cover;
+}
+.gmail-div img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border: solid;
+  border-radius: 50%;
+  border-color: red;
+  background-color: black;
+  padding: 4px;
+  
+}
+.gmail-div a{
+  color: red;
+}
+
+
+.x-div,
+.facebook-div,
+.gmail-div{
+  display: flex;
+  column-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+
+
+
+.facebook-div img{
+  width: 30px;
+  border: solid;
+  border-radius: 50%;
+  border-color: #0049B7;
+  /* background-color: ; */
+  padding: 2px;
+  
+}
+
+.facebook-div a{
+  color: #0049B7;
+}
+
+
+.x-div img{
+  width: 30px;
+  border: solid;
+  border-radius: 50%;
+  border-color: black;
+  /* background-color: blak; */
+  padding: 2px;
+  
+}
+
+.x-div a{
+  color: #fffcfd;
+}
+  </style>
+</head>
+<body>
+  <div class="profile-center">
+    <img src="/images/portfolio.png" alt="profile-picutre" class="pfp ">
+    <h3>abd-csl</h3>
+
+    <div class="gmail-div">
+      <img src="/images/gmail.png" alt="youtube">
+      <a href="mailto:abdullah.csldev@gmail.com">email me</a>
+    </div>
+    
+   
+    
+    <div class="facebook-div">
+      <img src="/images/facebook.webp" alt="facebook">
+      <a href="https://www.facebook.com/profile.php?id=61590512044273">@Abd Csl</a>
+    </div>
+    
+    <div class="x-div">
+      <img src="/images/X.png" alt="X">
+      <a href="https://x.com/abdXcsl">@abdXcsl</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>changing shell</title>
+  <link rel="stylesheet" href="paru.css">
+  </head>  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+<body>
+  <div class="flex-container">
+    <h1>how to install AUR helper PARU on Arch linux </h1>
+    <div class="content-div">
+      
+      <h3>In this guide or tutorial I will show you how to install AUR helper paru on arch linux</h3>
+      
+      <img class="title" src="/guides-images/paru.png" alt="change shell">
+      
+
+      <h2>STEP1:</h2>
+      <div class="p-div"><h4>First Install git, to install git open terminal and type</h4></div>
+      <div><p>$sudo pacman -S git </p></div>
+      <img src="images/pic-1.png" alt="">
+      
+      <h2>STEP2:</h2>
+      <div class="p-div"><h4>Install the necessary files for aur helper using:</h4></div>
+       <div><p>$sudo pacman -S --needed base-devel </p></div>
+      <img src="images/pic-2.png" alt="">
+      
+      <h2>STEP3:</h2>
+      <div class="p-div"><h4>clone the paru git from this link using:</h4></div>
+      <div><p>$git clone https://aur.archlinux.org/paru.git </p></div>
+      <img src="images/pic-3.png" alt="">
+
+      <h2>STEP4:</h2>
+      <div class="p-div"><h4>After it is cloned,go to the paru directory using:</h4></div>
+      <div><p>$cd paru </p></div>
+      <img src="images/pic-4.png" alt="">
+
+      
+      <h2>STEP5:</h2>
+      <div class="p-div"><h4>After changing the directory build your package using:</h4></div>
+      <div><p>makepkg -si </p></div>
+      <img src="images/pic-5.png" alt="">
+
+      <h2>STEP6:</h2>
+      <div class="p-div"><h4>After the package is build you can search packages on the aur repository with</h4></div>
+      <div><p>$paru -Ss &lt;package_name&gt; </p></div>
+      <div class="p-div"><h4>then to install the package use</h4></div>
+      <div><p>$paru -S &lt;package_name&gt; </p></div>
+      <img src="images/pic-6.png" alt="">
+      
+      <h3>Note:It is advised to download packages on your own risk as it can contain harmul code!!!</h3>
+
+       
+    </div>
+  </div>
+</body>
+</html>
